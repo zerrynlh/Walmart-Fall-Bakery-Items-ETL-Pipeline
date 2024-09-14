@@ -1,4 +1,4 @@
-# 🍰 **Seasonal Bakery ETL Pipeline** 🍰
+# **Seasonal Bakery ETL Pipeline**
 
 ## Overview
 
@@ -131,7 +131,7 @@ If Airflow is set up locally:
 
 ---
 
-## *Testing**
+## **Testing**
 
 Unit tests for the utility functions are included in the `tests.py` file. To run the tests:
 
