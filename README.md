@@ -8,7 +8,7 @@ The project is organized in a modular way, separating custom functions (`utils.p
 
 ---
 
-## 📑 **Table of Contents**
+## **Table of Contents**
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Setup](#setup)
@@ -20,7 +20,7 @@ The project is organized in a modular way, separating custom functions (`utils.p
 
 ---
 
-## 🛠 **Technologies Used**
+## **Technologies Used**
 - **Python**: Core language for the ETL process.
 - **Apache Airflow**: Orchestrates and schedules the ETL pipeline.
 - **Snowflake**: Cloud data warehouse for storing the cleaned bakery data.
@@ -31,7 +31,7 @@ The project is organized in a modular way, separating custom functions (`utils.p
 
 ---
 
-## ✨ **Features**
+## **Features**
 - **Data Extraction**: Scrapes seasonal bakery items using `BeautifulSoup` and parses JSON content from a Walmart web page.
 - **Data Cleaning and Transformation**: Utilizes custom functions to:
   - Convert prices from string format to floats.
@@ -44,7 +44,7 @@ The project is organized in a modular way, separating custom functions (`utils.p
 
 ---
 
-## 🖥 **Setup**
+## **Setup**
 
 ### **Prerequisites**
 - Python 3.8+
@@ -83,7 +83,7 @@ SNOWFLAKE_SCHEMA=your_schema
 
 ---
 
-## ⚙️ **How It Works**
+## **How It Works**
 
 1. **Extract**:
    - Uses the `requests` library to retrieve HTML content from a Walmart seasonal bakery section.
@@ -105,7 +105,7 @@ SNOWFLAKE_SCHEMA=your_schema
 
 ---
 
-## 🏃‍♂️ **Running the Project**
+## **Running the Project**
 
 ### **Option 1: Running Locally**
 
@@ -131,7 +131,7 @@ If Airflow is set up locally:
 
 ---
 
-## 🧪 **Testing**
+## *Testing**
 
 Unit tests for the utility functions are included in the `tests.py` file. To run the tests:
 
@@ -147,7 +147,7 @@ The tests cover:
 
 ---
 
-## 🐳 **Docker Setup**
+## **Docker Setup**
 
 ### **Dockerizing the Application**
 
