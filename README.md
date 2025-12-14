@@ -123,11 +123,11 @@ The tests cover:
 This project includes a Dockerfile to containerize the ETL process. To build and run the Docker container:
 
 1. **Build the Docker image**:
-  ```
-   docker build -t bakery-etl .
-  ```
+```
+docker build -t bakery-etl .
+```
 
 2. **Run the Docker container**:
-   ```
-   docker run --env-file .env bakery-etl
-   ```
+```
+docker run --env-file .env bakery-etl
+```
