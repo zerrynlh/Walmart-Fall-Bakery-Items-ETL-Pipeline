@@ -84,20 +84,12 @@ SNOWFLAKE_SCHEMA=your_schema
 
 ## **Running the Project**
 
-### **Option 1: Running Locally**
-
-To manually run the ETL pipeline without Airflow:
-
-```
-python pipeline.py
-```
-
-This will scrape the bakery data, transform it, and load it into Snowflake.
-
-### **Option 2: Running via Airflow**
-
 1. Copy `dags.py` to your Airflow `dags/` directory.
-2. Start the Airflow scheduler and web server:
+2. Initialize Airflow
+```
+airflow db init
+```
+3. Start the Airflow scheduler and web server:
 ```
    airflow scheduler
    airflow webserver
@@ -117,17 +109,3 @@ The tests cover:
 - Conversion of price strings to floats
 - Extraction of weight (OZ) from product descriptions
 - Transformation and cleaning logic for the entire dataset
-
-## **Docker Setup**
-
-This project includes a Dockerfile to containerize the ETL process. To build and run the Docker container:
-
-1. **Build the Docker image**:
-```
-docker build -t bakery-etl .
-```
-
-2. **Run the Docker container**:
-```
-docker run --env-file .env bakery-etl
-```
