@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is an **ETL pipeline** that extracts seasonal bakery data from Walmart, transforms it into a structured format, and loads the cleaned data into a **Snowflake** database. This project leverages modern data engineering tools such as **Apache Airflow** for scheduling and orchestration, **Snowflake** as the target data warehouse, and Python libraries like **Pandas** and **BeautifulSoup** for data extraction and transformation.
+This project is an ETL pipeline that extracts seasonal bakery data from Walmart, transforms it into a structured format, and loads the cleaned data into a Snowflake database. This project leverages modern data engineering tools such as Apache Airflow for scheduling and orchestration, Snowflake as the target data warehouse, and Python libraries like Pandas and BeautifulSoup for data extraction and transformation.
 
 Custom functions can be located in (`utils.py`), pipeline logic (`pipeline.py`), and the orchestration (`dags.py`) for Airflow.
 
