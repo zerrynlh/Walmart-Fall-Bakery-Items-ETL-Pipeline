@@ -59,8 +59,10 @@ cd seasonal-bakery-etl
 ```
 
 # Create a virtual environment
+```
 python -m venv venv
 source venv/bin/activate
+```
 
 # Install required Python libraries
 ```
