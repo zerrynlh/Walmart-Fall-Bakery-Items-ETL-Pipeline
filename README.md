@@ -19,9 +19,9 @@ Custom functions can be located in (`utils.py`), pipeline logic (`pipeline.py`),
 ---
 
 ## **Technologies Used**
-- Python**
+- Python
 - Apache Airflow
-- Snowflake*
+- Snowflake
 - Pandas
 - BeautifulSoup
 - Docker
@@ -54,7 +54,7 @@ Custom functions can be located in (`utils.py`), pipeline logic (`pipeline.py`),
 First, clone the repository and install the necessary dependencies:
 
 ```
-git clone https://github.com/your-username/seasonal-bakery-etl.git
+git clone https://github.com/zerrynlh/Walmart-Fall-Bakery-Items-ETL-Pipeline
 cd seasonal-bakery-etl
 ```
 
